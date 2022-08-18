@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Video controls</title>
+
+</head>
+
+<body>
+    <div class="container" onmouseover="showControl()" onmouseout="hideControl()">
+        <video id="video" src="src/video/Forest.mp4"></video>
+
+        <div id="control">
+            <img class="btn" onclick="retroceder()" src="src/images/video-controls/icons8-skip-15-seconds-back-50.png">
+            <img class="btn" onclick="avancar()" src="src/images/video-controls/icons8-skip-15-seconds-forward-50.png">
+            <img class="btn" onclick="play()" src="src/images/video-controls/icons8-play-50.png">
+            <img class="btn" onclick="Stop()" src="src/images/video-controls/icons8-stop-50.png">
+            <img class="btn" onclick="diminuirVel()" src="src/images/video-controls/icons8-subtract-50.png">
+            <img class="btn" onclick="aumentarVel()" src="src/images/video-controls/icons8-plus-math-50.png">
+
+        </div>
+
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>

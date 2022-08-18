@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+
+#video{
+    width: 100%;
+}
+
+#control{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+    
+}
+#controls:hover{
+
+    visibility: hidden;
+}
+
+
+.btn{
+    position: relative;
+    width: 60px;
+    padding: 10px;
+    top: 100%;
+    transform: translateY(-100%);
+}
